@@ -1,22 +1,20 @@
-# CISC 191 Project
+# Study Task Planner
 
-Java project for CISC 191, Fall 2026.
+CISC 191, Aakash Mandyam, Fall 2026
 
-## Development setup
+Week 2 implements StudyTask, AssignmentTask, ExamTask, PlannerModel, PlannerWindow and PlannerApp. Seven JUnit tests cover validation, subtype details, add, edit, completion/reopening, remove, and protecting the list. Import the Eclipse project with Java 21 and JUnit 5. The src folder contains application code; test contains JUnit tests.
 
-- Java 21
-- Eclipse IDE for Java Developers
-- Java source folder: `src`
-- Compiled output: `bin` (ignored by Git)
+Run planner.PlannerApp as a Java Application for the Swing progress view. It starts empty and offers task-type, title, course, due-date and detail fields with Add, Save edit, Complete / reopen and Remove buttons. Tasks remain in memory and are lost when the application closes. The GUI compiles but has not been launched or interactively verified; a real screenshot is still required.
 
-To open the project in Eclipse, use **File → Import → General → Existing Projects into Workspace**, select this repository folder, and leave **Copy projects into workspace** unchecked. The included `.project` and `.classpath` files configure the Java project and source folder.
+Run planner.PlannerDemo as a Java Application for the verified model demonstration using sample task data. It exercises adding mixed task types, completion, editing, reopening, removal, and rejected invalid updates.
 
-Commit completed changes and push them to GitHub to keep a versioned backup.
+Persistence, sorting, filtering and seven-day counts remain later milestones.
 
-## Project plan
+Repository baseline: https://github.com/AakashMandyam/cisc191-project at 415a0af7ad74684482ef449f8ef9af99920e5869
+No open-source license has been selected.
 
-The project topic, proposal, class design, and implementation have not been selected or completed yet. This repository currently contains the development setup only.
+## References
 
-## License
-
-No open-source license has been selected yet.
+- Oracle Java SE 21 JFrame API: https://docs.oracle.com/en/java/javase/21/docs/api/java.desktop/javax/swing/JFrame.html
+- Oracle Java SE 21 SwingUtilities API: https://docs.oracle.com/en/java/javase/21/docs/api/java.desktop/javax/swing/SwingUtilities.html
+- Course checkpoint requirements: https://sdccd.instructure.com/courses/2505799/pages/project-checkpoints-read
