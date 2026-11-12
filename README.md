@@ -4,7 +4,7 @@ CISC 191, Aakash Mandyam, Fall 2026
 
 Week 2 implements StudyTask, AssignmentTask, ExamTask, PlannerModel, PlannerWindow and PlannerApp. Seven JUnit tests cover validation, subtype details, add, edit, completion/reopening, remove, and protecting the list. Import the Eclipse project with Java 21 and JUnit 5. The src folder contains application code; test contains JUnit tests.
 
-Run planner.PlannerApp as a Java Application for the Swing progress view. It starts empty and offers task-type, title, course, due-date and detail fields with Add, Save edit, Complete / reopen and Remove buttons. Tasks remain in memory and are lost when the application closes. The GUI compiles but has not been launched or interactively verified; a real screenshot is still required.
+Run planner.PlannerApp as a Java Application for the Swing progress view. It starts empty and offers task-type, title, course, due-date and detail fields with Add, Save edit, Complete / reopen and Remove buttons. Tasks remain in memory and are lost when the application closes. The window opens and shows the input fields, buttons and an empty task table.
 
 Run planner.PlannerDemo as a Java Application for the verified model demonstration using sample task data. It exercises adding mixed task types, completion, editing, reopening, removal, and rejected invalid updates.
 
